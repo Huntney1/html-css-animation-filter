@@ -33,11 +33,37 @@
     background-color: transparent;
 }
 
-
 /** esercizio 5 */
+.ex-5-square{
+    transition: 2s;
+}
+.ex-5-square:hover{
+transform: scale(1,1);
+}
+.ex-5-square:active{
+    transform: scale(2,2);
+}
+
 /** esercizio 6 */
+.ex-6-img{
+    transition: 1s;
+}
+.ex-6-img:hover{
+filter: grayscale(100%);
+}
+
 /** esercizio 7 */
+.ex-7-img{
+    transition: 1.1s;
+}
+
+.ex-7-img:hover{
+    filter:  invert(100%)  drop-shadow(6px 6px 5px rgb(245, 0, 0));;
+}
+
 /** esercizio 8 */
+
+
 /** esercizio 9 */
 /** esercizio 10 */
 /** esercizio 11 */
