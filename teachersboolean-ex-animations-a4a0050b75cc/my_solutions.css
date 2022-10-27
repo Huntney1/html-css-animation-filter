@@ -1,72 +1,106 @@
 /** Esercizio 1 */
 
-.ex-1-square{
-    transition: background 1s ;
+.ex-1-square {
+    transition: background 1s;
 }
-.ex-1-square:hover{
+
+.ex-1-square:hover {
     background-color: red;
 }
 
 /** esercizio 2 */
 
-.ex-2-square{
+.ex-2-square {
     transition: 2s;
 }
-.ex-2-square:active{
+
+.ex-2-square:active {
     width: 100%;
 }
 
 /** esercizio 3 */
 
-.ex-3-square{
+.ex-3-square {
     transition: 2s;
 }
-.ex-3-square:active{
+
+.ex-3-square:active {
     border-radius: 100%;
 }
 
 /** esercizio 4 */
-.ex-4-square{
+.ex-4-square {
     transition: 2s;
 }
-.ex-4-square:active{
+
+.ex-4-square:active {
     background-color: transparent;
 }
 
 /** esercizio 5 */
-.ex-5-square{
+.ex-5-square {
     transition: 2s;
 }
-.ex-5-square:hover{
-transform: scale(1,1);
+
+.ex-5-square:hover {
+    transform: scale(1, 1);
 }
-.ex-5-square:active{
-    transform: scale(2,2);
+
+.ex-5-square:active {
+    transform: scale(2, 2);
 }
 
 /** esercizio 6 */
-.ex-6-img{
+.ex-6-img {
     transition: 1s;
 }
-.ex-6-img:hover{
-filter: grayscale(100%);
+
+.ex-6-img:hover {
+    filter: grayscale(100%);
 }
 
 /** esercizio 7 */
-.ex-7-img{
+.ex-7-img {
     transition: 1.1s;
 }
 
-.ex-7-img:hover{
-    filter:  invert(100%)  drop-shadow(6px 6px 5px rgb(245, 0, 0));;
+.ex-7-img:hover {
+    filter: invert(100%) drop-shadow(6px 6px 5px rgb(245, 0, 0));
+
 }
 
 /** esercizio 8 */
+.ex-8-img {
+    transition: 1.1s;
+}
 
+.ex-8-img:hover {
+    filter: invert(100%) drop-shadow(6px 6px 5px rgb(245, 0, 0));
+    border-radius: 20px;
+}
 
 /** esercizio 9 */
+.ex-9-img {
+    transition: 1.1s;
+}
+
+.ex-9-img:hover {
+    filter: invert(100%) drop-shadow(6px 6px 5px rgb(245, 0, 0));
+    border-radius: 20px;
+    transform: scale(2);
+}
+
 /** esercizio 10 */
+.ex-10-icon{
+    animation: rotation linear 1s infinite ;
+}
+
+@keyframes rotation{
+    0%{
+        transform: rotate('');
+    }
+}
+
 /** esercizio 11 */
 /** esercizio 12 */
 /** esercizio 13 */
-
